@@ -31,7 +31,7 @@ RUN apt-get update && \
 # Copy the prebuilt V compiler
 COPY --from=install /opt/vlang /opt/vlang
 # Add vlang to path
-ENV PATH "/opt/vlang:${PATH}"
+ENV PATH="/opt/vlang:${PATH}"
 # Test it
 RUN v -version
 
