@@ -1,5 +1,5 @@
 {
   "version": 1,
   "status": "error",
-  "message": "---- Testing... ----------------------------------------------------------------\nleap.v:3:4: error: function names cannot contain uppercase letters, use snake_case instead\n    1 | module main\n    2 | \n    3 | fn is_leap_year123BahB214\n      |    ~~~~~~~~~~~~~~~~~~~~~~\n\nCannot compile file /opt/test-runner/tests/example-syntax-error/run_test.v\n--------------------------------------------------------------------------------\nFailed command 1:    '/opt/vlang/v'  -stats  -o '/tmp/tsession/0_0/run_test' '/opt/test-runner/tests/example-syntax-error/run_test.v'\nSummary for all V _test.v files: 1 failed, 1 total.Comptime:. Runtime:."
+  "message": "---- Testing... ----------------------------------------------------------------\nleap.v:3:4: error: function names cannot contain uppercase letters, use snake_case instead\n    1 | module main\n    2 | \n    3 | fn is_leap_year123BahB214\n      |    ~~~~~~~~~~~~~~~~~~~~~~\n\nCannot compile file /opt/test-runner/tests/example-syntax-error/run_test.v\n--------------------------------------------------------------------------------\nTo reproduce just failure 1 run:    '/opt/vlang/v' -stats '/opt/test-runner/tests/example-syntax-error/run_test.v'\nSummary for all V _test.v files: 1 failed, 1 total.Comptime:. Runtime:."
 }

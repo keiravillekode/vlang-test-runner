@@ -6,7 +6,7 @@ FROM alpine:3.17 AS install
 # However, pre-built releases are now available, which is a reliable route for our purposes.
 
 # Specify the release of V to download. 
-ARG release_tag=0.4.8
+ARG release_tag=0.5
 ARG release_filename=v_linux.zip
 
 WORKDIR /opt/vlang
